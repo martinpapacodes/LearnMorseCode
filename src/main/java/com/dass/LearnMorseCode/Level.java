@@ -28,9 +28,11 @@ public class Level {
     public Level(String toBeMorseCoded) {
         this.toBeMorseCoded = toBeMorseCoded;
         this.levelTracker = 0;
+
     }
 
     public static void main(String [] args) throws IOException {
+        getQuoteFromApi();
 //        Scanner input = new Scanner(System.in);
 //
 //        convertToMorseCode(getQuoteFromApi());
